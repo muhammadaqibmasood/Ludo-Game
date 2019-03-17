@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+tr,td{
+  border: 1px solid black;
+  max-width:  55vw;
+  max-height:  5vh;
+}
+#table{
+  height: 100vh;
+  width: 100vw;
+}
+
+  .green,#stop3{
+    background-color:#00be00
+  }
+  .yellow,#stop4{
+    background-color:#fcd000
+  }
+  .blue,#stop1{
+    background-color:#0000ff
+}
+.red,#stop2{
+  background-color:#7f0000
+}
+#blue,#green,#red,#yellow{
+  width:2vw;
+  height:4vh;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: auto;
+  
+  
+}
+
+#stop1{
+ float: right;
+ margin: auto;
+ width:150px;
+ height: 100px;
+}
+#stop2{
+  float: left;
+  margin: auto;
+  width:150px;
+  height: 100px;
+}
+#stop3{
+  float: left; width:150px;
+  margin: auto;
+  height: 100px;}
+#stop4{
+  float: right;
+  margin: auto;
+  width:150px;
+  height: 100px;
+}
+
+
+img{
+  width:2vw;
+  height:5vh;
+  
+}
+#greenButton,#blueButton,#redButton,#yellowButton{
+ display: flex;
+ justify-content: center;
+}
+#blue1,#green1,#red1,#yellow1{
+  
+  width:300px;
+  margin: auto;
+  white-space: pre;
+  
+}
+#green1,#yellow1{
+margin-bottom: 0px;
+}
+span{
+  font-size: 25px;
+  font-weight: bold;
+  white-space: pre;
+}
